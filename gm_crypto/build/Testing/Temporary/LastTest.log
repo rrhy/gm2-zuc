@@ -1,0 +1,2193 @@
+Start testing: Sep 04 21:00 CST
+----------------------------------------------------------
+1/39 Testing: sm4
+1/39 Test: sm4
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sm4test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sm4" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_sm4() ok
+test_sm4_cbc() ok
+test_sm4_cbc_padding() ok
+test_sm4_ctr() ok
+test_sm4_gcm() ok
+test_sm4_cbc_update() ok
+test_sm4_ctr_update() ok
+/home/sm-encrypt/GmSSL-develop/tests/sm4test.c all tests passed
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"sm4" end time: Sep 04 21:00 CST
+"sm4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/39 Testing: sm3
+2/39 Test: sm3
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sm3test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sm3" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_sm3() ok
+/home/sm-encrypt/GmSSL-develop/tests/sm3test.c all tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"sm3" end time: Sep 04 21:00 CST
+"sm3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/39 Testing: sm2
+3/39 Test: sm2
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sm2test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sm2" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+k = 1, k * G
+    x: 32C4AE2C1F1981195F9904466A39C9948FE30BBFF2660BE1715A4589334C74C7
+    y: BC3736A2F4F6779C59BDCEE36B692153D0A9877CC62A474002DF32E52139F0A0
+    compressedPoint: 0232C4AE2C1F1981195F9904466A39C9948FE30BBFF2660BE1715A4589334C74C7
+    compressedPoint: 0432C4AE2C1F1981195F9904466A39C9948FE30BBFF2660BE1715A4589334C74C7BC3736A2F4F6779C59BDCEE36B692153D0A9877CC62A474002DF32E52139F0A0
+k = 2, k * G
+    x: 56CEFD60D7C87C000D58EF57FA73BA4D9C0DFA08C08A7331495C2E1DA3F2BD52
+    y: 31B7E7E6CC8189F668535CE0F8EAF1BD6DE84C182F6C8E716F780D3A970A23C3
+    compressedPoint: 0356CEFD60D7C87C000D58EF57FA73BA4D9C0DFA08C08A7331495C2E1DA3F2BD52
+    compressedPoint: 0456CEFD60D7C87C000D58EF57FA73BA4D9C0DFA08C08A7331495C2E1DA3F2BD5231B7E7E6CC8189F668535CE0F8EAF1BD6DE84C182F6C8E716F780D3A970A23C3
+k = 3, k * G
+    x: A97F7CD4B3C993B4BE2DAA8CDB41E24CA13F6BD945302244E26918F1D0509EBF
+    y: 530B5DD88C688EF5CCC5CEC08A72150F7C400EE5CD045292AAACDD037458F6E6
+    compressedPoint: 02A97F7CD4B3C993B4BE2DAA8CDB41E24CA13F6BD945302244E26918F1D0509EBF
+    compressedPoint: 04A97F7CD4B3C993B4BE2DAA8CDB41E24CA13F6BD945302244E26918F1D0509EBF530B5DD88C688EF5CCC5CEC08A72150F7C400EE5CD045292AAACDD037458F6E6
+k = 4, k * G
+    x: C239507105C683242A81052FF641ED69009A084AD5CC937DB21646CD34A0CED5
+    y: B1BF7EC4080F3C8735F1294AC0DB19686BEE2E96AB8C71FB7A253666CB66E009
+    compressedPoint: 03C239507105C683242A81052FF641ED69009A084AD5CC937DB21646CD34A0CED5
+    compressedPoint: 04C239507105C683242A81052FF641ED69009A084AD5CC937DB21646CD34A0CED5B1BF7EC4080F3C8735F1294AC0DB19686BEE2E96AB8C71FB7A253666CB66E009
+k = 5, k * G
+    x: C749061668652E26040E008FDD5EB77A344A417B7FCE19DBA575DA57CC372A9E
+    y: F2DF5DB2D144E9454504C622B51CF38F5006206EB579FF7DA6976EFF5FBE6480
+    compressedPoint: 02C749061668652E26040E008FDD5EB77A344A417B7FCE19DBA575DA57CC372A9E
+    compressedPoint: 04C749061668652E26040E008FDD5EB77A344A417B7FCE19DBA575DA57CC372A9EF2DF5DB2D144E9454504C622B51CF38F5006206EB579FF7DA6976EFF5FBE6480
+k = 6, k * G
+    x: 0927AFB57D93483BBB17C93E71F22A3105FF8856A66016892C8B1A1A3C4B0D30
+    y: 150C6B1AB4D1FC7EAC1C0EF6EBF2664581ADF1F0855A064DD572103000088F63
+    compressedPoint: 030927AFB57D93483BBB17C93E71F22A3105FF8856A66016892C8B1A1A3C4B0D30
+    compressedPoint: 040927AFB57D93483BBB17C93E71F22A3105FF8856A66016892C8B1A1A3C4B0D30150C6B1AB4D1FC7EAC1C0EF6EBF2664581ADF1F0855A064DD572103000088F63
+k = 7, k * G
+    x: DDF092555409C19DFDBE86A75C139906A80198337744EE78CD27E384D9FCAF15
+    y: 847D18FFB38E87065CD6B6E9C12D2922037937707D6A49A2223B949657E52BC1
+    compressedPoint: 03DDF092555409C19DFDBE86A75C139906A80198337744EE78CD27E384D9FCAF15
+    compressedPoint: 04DDF092555409C19DFDBE86A75C139906A80198337744EE78CD27E384D9FCAF15847D18FFB38E87065CD6B6E9C12D2922037937707D6A49A2223B949657E52BC1
+    compressedPoint: 0232C4AE2C1F1981195F9904466A39C9948FE30BBFF2660BE1715A4589334C74C7
+    compressedPoint: 0356CEFD60D7C87C000D58EF57FA73BA4D9C0DFA08C08A7331495C2E1DA3F2BD52
+    compressedPoint: 02A97F7CD4B3C993B4BE2DAA8CDB41E24CA13F6BD945302244E26918F1D0509EBF
+    compressedPoint: 03C239507105C683242A81052FF641ED69009A084AD5CC937DB21646CD34A0CED5
+    compressedPoint: 02C749061668652E26040E008FDD5EB77A344A417B7FCE19DBA575DA57CC372A9E
+    compressedPoint: 030927AFB57D93483BBB17C93E71F22A3105FF8856A66016892C8B1A1A3C4B0D30
+    compressedPoint: 03DDF092555409C19DFDBE86A75C139906A80198337744EE78CD27E384D9FCAF15
+    ECPoint: 04410432C4AE2C1F1981195F9904466A39C9948FE30BBFF2660BE1715A4589334C74C7BC3736A2F4F6779C59BDCEE36B692153D0A9877CC62A474002DF32E52139F0A0
+    ECPoint: 04410456CEFD60D7C87C000D58EF57FA73BA4D9C0DFA08C08A7331495C2E1DA3F2BD5231B7E7E6CC8189F668535CE0F8EAF1BD6DE84C182F6C8E716F780D3A970A23C3
+    ECPoint: 044104A97F7CD4B3C993B4BE2DAA8CDB41E24CA13F6BD945302244E26918F1D0509EBF530B5DD88C688EF5CCC5CEC08A72150F7C400EE5CD045292AAACDD037458F6E6
+    ECPoint: 044104C239507105C683242A81052FF641ED69009A084AD5CC937DB21646CD34A0CED5B1BF7EC4080F3C8735F1294AC0DB19686BEE2E96AB8C71FB7A253666CB66E009
+    ECPoint: 044104C749061668652E26040E008FDD5EB77A344A417B7FCE19DBA575DA57CC372A9EF2DF5DB2D144E9454504C622B51CF38F5006206EB579FF7DA6976EFF5FBE6480
+    ECPoint: 0441040927AFB57D93483BBB17C93E71F22A3105FF8856A66016892C8B1A1A3C4B0D30150C6B1AB4D1FC7EAC1C0EF6EBF2664581ADF1F0855A064DD572103000088F63
+    ECPoint: 044104DDF092555409C19DFDBE86A75C139906A80198337744EE78CD27E384D9FCAF15847D18FFB38E87065CD6B6E9C12D2922037937707D6A49A2223B949657E52BC1
+    SM2_KEY
+        publicKey
+            x: 961B7B0F0AE8958A11CABB9CD98038B86CEDAD262645BFB92820EA5E336F2D28
+            y: 310E7829A9AD15A818EDB11582A504AAF10BB319B0EA2338850E4314D45BDD81
+        privateKey: 02F65717FE2020487F3A7E4F31529DBBA0961E996A8B8B59E03F8FC30F2532FA
+    ECPrivateKey: 3077020101042002F65717FE2020487F3A7E4F31529DBBA0961E996A8B8B59E03F8FC30F2532FAA00A06082A811CCF5501822DA14403420004961B7B0F0AE8958A11CABB9CD98038B86CEDAD262645BFB92820EA5E336F2D28310E7829A9AD15A818EDB11582A504AAF10BB319B0EA2338850E4314D45BDD81
+    #define SM2_PRIVATE_KEY_DEFAULT_SIZE 121
+    ECPrivateKey
+        version: 1
+        privateKey: 02F65717FE2020487F3A7E4F31529DBBA0961E996A8B8B59E03F8FC30F2532FA
+        parameters: sm2p256v1
+        publicKey
+            ECPoint: 04961B7B0F0AE8958A11CABB9CD98038B86CEDAD262645BFB92820EA5E336F2D28310E7829A9AD15A818EDB11582A504AAF10BB319B0EA2338850E4314D45BDD81
+    SM2_KEY
+        publicKey
+            x: DC62E3D176299F13026727CBCCA586A5A95AA2B56F4FC5E4FCB16F0463CA9267
+            y: 777CE3B86468FAA6342F97A736F04ADE4424F9B60FCA92F9909122F3E0B3FCF6
+        privateKey: BAD49BE891C7616D18575BC1965EA69E801221FE933344FC485A33F3CC26CF55
+    PrivateKeyInfo: 308193020100301306072A8648CE3D020106082A811CCF5501822D047930770201010420BAD49BE891C7616D18575BC1965EA69E801221FE933344FC485A33F3CC26CF55A00A06082A811CCF5501822DA14403420004DC62E3D176299F13026727CBCCA586A5A95AA2B56F4FC5E4FCB16F0463CA9267777CE3B86468FAA6342F97A736F04ADE4424F9B60FCA92F9909122F3E0B3FCF6
+    sizeof(PrivateKeyInfo): 150
+    PrivateKeyInfo
+        version: 0
+        privateKeyAlgorithm
+            algorithm: ecPublicKey
+            namedCurve: sm2p256v1
+            privateKey
+                version: 1
+                privateKey: BAD49BE891C7616D18575BC1965EA69E801221FE933344FC485A33F3CC26CF55
+                parameters: sm2p256v1
+                publicKey
+                    ECPoint: 04DC62E3D176299F13026727CBCCA586A5A95AA2B56F4FC5E4FCB16F0463CA9267777CE3B86468FAA6342F97A736F04ADE4424F9B60FCA92F9909122F3E0B3FCF6
+    SM2_KEY
+        publicKey
+            x: 49139B807D26B3AF53D6E0036CCC4417AFF37E4AE32108AADC7569D336D7EEAB
+            y: 38A87AE9F58543B8C41878A0F14F553372C06AF4055D53893CEE0F8454748D94
+        privateKey: 4BC38BD4BE3A60F9F81F52704A249C8CA9505A2609450433BA9DB73C79CC533C
+    EncryptedPrivateKeyInfo: 30820106306106092A864886F70D01050D3054303406092A864886F70D01050C30270410F4AFD1FEB175CBEA5D8EF72FBA667DDF0203010000020110300B06092A811CCF5501831102301C06082A811CCF550168020410761F2877095796B89BD18C6D44ADC9FC0481A08B270E16459732B82C1F016F8682254F4CE23D2B4A1ABF03FB2A8A85D935B2F34770A7C5183AFC16B4323E72EDBBFC534E9E666C05F7198B07FFCE1EFB39AE43D47066EF37E6E45A863C9C562F20B1822752D32F71E781513634887132F8F11F46AD2AD0BDCA4FBAAE91E10F0900A151AB646447ACD21DA6E27100241A3DE03B51320BCC526711DD7EC3B7DEF6E9127A1CA15D3FF8E388CA54F12AEC6D7DCDF1
+    sizeof(EncryptedPrivateKeyInfo): 266
+    EncryptedPrivateKeyInfo
+        encryptionAlgorithm
+            algorithm: pbes2
+            parameters
+                keyDerivationFunc
+                    algorithm: pbkdf2
+                    parameters
+                        salt: F4AFD1FEB175CBEA5D8EF72FBA667DDF
+                        iterationCount: 65536
+                        keyLength: 16
+                        prf: hmac-sm3
+                encryptionScheme
+                    algorithm: sm4-cbc
+                    iv: : 761F2877095796B89BD18C6D44ADC9FC
+        encryptedData: 8B270E16459732B82C1F016F8682254F4CE23D2B4A1ABF03FB2A8A85D935B2F34770A7C5183AFC16B4323E72EDBBFC534E9E666C05F7198B07FFCE1EFB39AE43D47066EF37E6E45A863C9C562F20B1822752D32F71E781513634887132F8F11F46AD2AD0BDCA4FBAAE91E10F0900A151AB646447ACD21DA6E27100241A3DE03B51320BCC526711DD7EC3B7DEF6E9127A1CA15D3FF8E388CA54F12AEC6D7DCDF1
+    SM2_MIN_SIGNATURE_SIZE: 8
+    : 3006020100020100
+    signature
+        r: 0000000000000000000000000000000000000000000000000000000000000000
+        s: 0000000000000000000000000000000000000000000000000000000000000000
+    SM2_MAX_SIGNATURE_SIZE: 72
+    : 304602210080808080808080808080808080808080808080808080808080808080808080800221008080808080808080808080808080808080808080808080808080808080808080
+    signature
+        r: 8080808080808080808080808080808080808080808080808080808080808080
+        s: 8080808080808080808080808080808080808080808080808080808080808080
+    SM2_KEY
+        publicKey
+            x: EFDD1295171FAE972625AA13981DEE369597789194AC6B7022A2CF6F8CDEBC92
+            y: 6EF66BC244B16721DC101E5B084D6D324014CA50077B1224A815FACA4E621073
+        privateKey: D9D22478C20F5C074C1330DCA955FEC2300C70B03EC24C375001312EAAB3AA7C
+    signature: 304502204CD687C54C40F87F94EB6C1AD622AA289133CD9393A9500F6549B3A7895ED6A6022100B899E02C1D17DA42F751F49BE8C84415186FFDCE43D5A603C9010E491BC39950
+    signature
+        r: 4CD687C54C40F87F94EB6C1AD622AA289133CD9393A9500F6549B3A7895ED6A6
+        s: B899E02C1D17DA42F751F49BE8C84415186FFDCE43D5A603C9010E491BC39950
+    verification: success
+test 1
+    plaintext: 00
+    ciphertext: 306A022100899B9047FC7CF3A767C902F3A54FD25C98A5BB8642C53D70A194F2986258F10A02207C692731CB7B1F8221211A7CC3A41A0E1123F82EA42F721359FBB3406D7081800420EC575317EAC4F3854E8F78045DF5B8FE2E06F73E618E55328ADEBF2FB6B31EE60401DD
+    Ciphertext
+        XCoordinate: 899B9047FC7CF3A767C902F3A54FD25C98A5BB8642C53D70A194F2986258F10A
+        YCoordinate: 7C692731CB7B1F8221211A7CC3A41A0E1123F82EA42F721359FBB3406D708180
+        HASH: EC575317EAC4F3854E8F78045DF5B8FE2E06F73E618E55328ADEBF2FB6B31EE6
+        CipherText: DD
+
+test 2
+    plaintext: 000102030405060708090A0B0C0D0E0F
+    ciphertext: 3079022100D5D66E191C8E3A2DDED8877EC0C873E3B29C5B3F09B36F60885C5C1BA0FD2B7D02200ABD0EE0F3AA614A3E683F4F58339EC5C0AD671AE9E81B73E813570C36045BAC0420CB954E214DBF59143899E53DD5FA1551A7907EF96A33D2742E620B558D14E9EE04102785F2A8C32DE7F4A04E620E56773538
+    Ciphertext
+        XCoordinate: D5D66E191C8E3A2DDED8877EC0C873E3B29C5B3F09B36F60885C5C1BA0FD2B7D
+        YCoordinate: 0ABD0EE0F3AA614A3E683F4F58339EC5C0AD671AE9E81B73E813570C36045BAC
+        HASH: CB954E214DBF59143899E53DD5FA1551A7907EF96A33D2742E620B558D14E9EE
+        CipherText: 2785F2A8C32DE7F4A04E620E56773538
+
+test 3
+    plaintext: 000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F202122232425262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F404142434445464748494A4B4C4D4E4F505152535455565758595A5B5C5D5E5F606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D7E7F808182838485868788898A8B8C8D8E8F909192939495969798999A9B9C9D9E9FA0A1A2A3A4A5A6A7A8A9AAABACADAEAFB0B1B2B3B4B5B6B7B8B9BABBBCBDBEBFC0C1C2C3C4C5C6C7C8C9CACBCCCDCECFD0D1D2D3D4D5D6D7D8D9DADBDCDDDEDFE0E1E2E3E4E5E6E7E8E9EAEBECEDEEEFF0F1F2F3F4F5F6F7F8F9FAFBFCFDFE
+    ciphertext: 3082016A022100F50735A0A28EAC697C26B9251853A11F5C92AE5CE55CCED838D777CEE842AF0B022100FFCA10DB23B41EF3C5E47AE28C0D6981550CC2B8991CB48092E58EA67387738E0420A4635761A6DB329D80BAB54560743928C2D983DEF9C1266FF5B58E6DED60E9DD0481FFA4CAF5C303DE212E869B283DDDF9A961A964B7B41AA8F2F3F84C6BEC93BA64BD8D6693E049CF91D4AFB0E7738517FFDCA312E154FFF89B51D8540449CE6A73DECAF9B5E377A5C97F9FA05CC4B8B78EB87367C00FD492123EED3F443D5E0F7ED5C50E0E11D889C92BACD2FA1218525F803C531067E1EB9F7870498B8D30E1CA9427CC5F4C5F5D10F78E9CB0B12DFC013E7315005B6DF42B0303158F287C54EF21871CD360932B400245EEB3CFD88FA65D65CDB98380FB5B9D46B074A484AD40DF9E51F7EE79160682E9EE098A1B97287A7102CE800EB344AF73F000530D416602A21AC86B4670C18EEA324A990EED2F5C99CE8F6FF3E607EB03FA6A82E8E270
+    Ciphertext
+        XCoordinate: F50735A0A28EAC697C26B9251853A11F5C92AE5CE55CCED838D777CEE842AF0B
+        YCoordinate: FFCA10DB23B41EF3C5E47AE28C0D6981550CC2B8991CB48092E58EA67387738E
+        HASH: A4635761A6DB329D80BAB54560743928C2D983DEF9C1266FF5B58E6DED60E9DD
+        CipherText: A4CAF5C303DE212E869B283DDDF9A961A964B7B41AA8F2F3F84C6BEC93BA64BD8D6693E049CF91D4AFB0E7738517FFDCA312E154FFF89B51D8540449CE6A73DECAF9B5E377A5C97F9FA05CC4B8B78EB87367C00FD492123EED3F443D5E0F7ED5C50E0E11D889C92BACD2FA1218525F803C531067E1EB9F7870498B8D30E1CA9427CC5F4C5F5D10F78E9CB0B12DFC013E7315005B6DF42B0303158F287C54EF21871CD360932B400245EEB3CFD88FA65D65CDB98380FB5B9D46B074A484AD40DF9E51F7EE79160682E9EE098A1B97287A7102CE800EB344AF73F000530D416602A21AC86B4670C18EEA324A990EED2F5C99CE8F6FF3E607EB03FA6A82E8E270
+
+sm2 bn test 1 ok
+sm2 bn test 2 ok
+sm2 bn test 3 ok
+sm2 bn test 4 ok
+sm2 bn test 5 ok
+sm2 bn test 6 ok
+sm2 bn test 7 ok
+sm2 bn test 8 ok
+sm2 bn test 9 ok
+sm2 bn test 10 ok
+sm2 bn test 11 ok
+sm2 bn test 12 ok
+sm2 bn test 13 ok
+sm2 bn test 14 ok
+sm2 bn test 15 ok
+sm2 bn test 16 ok
+sm2_jacobian_point_test
+sm2 point test 1 ok
+sm2 point test 2 ok
+sm2 point test 3 ok
+sm2 point test 4 ok
+sm2 point test 5 ok
+sm2 point test 6 ok
+sm2 point test 7 ok
+sm2 point test 8 ok
+test_sm2_point() ok
+test_sm2_point_octets() ok
+test_sm2_point_from_x() ok
+test_sm2_point_der() ok
+test_sm2_private_key() ok
+test_sm2_private_key_info() ok
+test_sm2_enced_private_key_info() ok
+test_sm2_signature() ok
+test_sm2_sign() ok
+test_sm2_do_encrypt() ok
+test_sm2_encrypt() ok
+/home/sm-encrypt/GmSSL-develop/tests/sm2test.c all tests passed
+<end of output>
+Test time =   0.63 sec
+----------------------------------------------------------
+Test Passed.
+"sm2" end time: Sep 04 21:00 CST
+"sm2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/39 Testing: sm9
+4/39 Test: sm9
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sm9test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sm9" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_sm9_fp() ok
+test_sm9_fn() ok
+test_sm9_fp2() ok
+test_sm9_fp4() ok
+test_sm9_fp12() ok
+test_sm9_point() ok
+test_sm9_twist_point() ok
+test_sm9_pairing() ok
+test_sm9_sign() ok
+test_sm9_encrypt() ok
+/home/sm-encrypt/GmSSL-develop/tests/sm9test.c all tests passed
+<end of output>
+Test time =   2.35 sec
+----------------------------------------------------------
+Test Passed.
+"sm9" end time: Sep 04 21:00 CST
+"sm9" time elapsed: 00:00:02
+----------------------------------------------------------
+
+5/39 Testing: zuc
+5/39 Test: zuc
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/zuctest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"zuc" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+zuc test 0 ok
+zuc test 1 ok
+zuc test 2 ok
+zuc eea test 0 ok
+zuc eea test 1 ok
+zuc eea test 2 ok
+zuc eia test 0 ok
+zuc eia test 1 ok
+zuc eia test 2 ok
+zuc256 test 0 ok
+zuc256 test 1 ok
+zuc256 mac test 0 32-bit ok
+zuc256 mac test 0 64-bit ok
+zuc256 mac test 0 128-bit ok
+zuc256 mac test 1 32-bit ok
+zuc256 mac test 1 64-bit ok
+zuc256 mac test 1 128-bit ok
+zuc256 mac test 2 32-bit ok
+zuc256 mac test 2 64-bit ok
+zuc256 mac test 2 128-bit ok
+zuc256 mac test 3 32-bit ok
+zuc256 mac test 3 64-bit ok
+zuc256 mac test 3 128-bit ok
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"zuc" end time: Sep 04 21:00 CST
+"zuc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/39 Testing: aes
+6/39 Test: aes
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/aestest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"aes" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+aes test 1 ok
+aes test 2 ok
+aes test 3 ok
+aes test 4 ok
+aes test 5 ok
+test_aes() ok
+aes ctr test 1 ok
+aes ctr test 2 ok
+test_aes_ctr() ok
+aes gcm test 1 ok
+aes gcm test 2 ok
+aes gcm test 3 ok
+aes gcm test 4 ok
+aes gcm test 5 ok
+aes gcm test 6 ok
+aes gcm test 7 ok
+test_aes_gcm() ok
+/home/sm-encrypt/GmSSL-develop/tests/aestest.c all tests passed!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"aes" end time: Sep 04 21:00 CST
+"aes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/39 Testing: sha224
+7/39 Test: sha224
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sha224test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sha224" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+sha224 test 1 ok
+sha224 test 2 ok
+sha224 test 3 ok
+sha224 test 4 ok
+sha224 test 5 ok
+sha224 test 6 ok
+sha224 test 7 ok
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"sha224" end time: Sep 04 21:00 CST
+"sha224" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/39 Testing: sha256
+8/39 Test: sha256
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sha256test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sha256" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+sha256 test 1 ok
+sha256 test 2 ok
+sha256 test 3 ok
+sha256 test 4 ok
+sha256 test 5 ok
+sha256 test 6 ok
+sha256 test 7 ok
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"sha256" end time: Sep 04 21:00 CST
+"sha256" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/39 Testing: sha384
+9/39 Test: sha384
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sha384test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sha384" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+sha384 test 1 ok
+sha384 test 2 ok
+sha384 test 3 ok
+sha384 test 4 ok
+sha384 test 5 ok
+sha384 test 6 ok
+sha384 test 7 ok
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"sha384" end time: Sep 04 21:00 CST
+"sha384" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/39 Testing: sha512
+10/39 Test: sha512
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sha512test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sha512" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+sha512 test 1 ok
+sha512 test 2 ok
+sha512 test 3 ok
+sha512 test 4 ok
+sha512 test 5 ok
+sha512 test 6 ok
+sha512 test 7 ok
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"sha512" end time: Sep 04 21:00 CST
+"sha512" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/39 Testing: chacha20
+11/39 Test: chacha20
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/chacha20test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"chacha20" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+chacha20 test ok
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"chacha20" end time: Sep 04 21:00 CST
+"chacha20" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/39 Testing: des
+12/39 Test: des
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/destest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"des" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"des" end time: Sep 04 21:00 CST
+"des" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/39 Testing: sha1
+13/39 Test: sha1
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/sha1test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"sha1" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+sha1 test 1 ok
+sha1 test 2 ok
+sha1 test 3 ok
+sha1 test 4 ok
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"sha1" end time: Sep 04 21:00 CST
+"sha1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/39 Testing: md5
+14/39 Test: md5
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/md5test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"md5" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+md5 test 1 ok
+md5 test 2 ok
+md5 test 3 ok
+md5 test 4 ok
+md5 test 5 ok
+md5 test 6 ok
+md5 test 7 ok
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"md5" end time: Sep 04 21:00 CST
+"md5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/39 Testing: rc4
+15/39 Test: rc4
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/rc4test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"rc4" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+rc4 test 1.1 ok
+rc4 test 1.2 ok
+rc4 test 1.3 ok
+rc4 test 1.4 ok
+rc4 test 1.5 ok
+rc4 test 1.6 ok
+rc4 test 1.7 ok
+rc4 test 2.1 ok
+rc4 test 2.2 ok
+rc4 test 2.3 ok
+rc4 test 2.4 ok
+rc4 test 2.5 ok
+rc4 test 2.6 ok
+rc4 test 2.7 ok
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"rc4" end time: Sep 04 21:00 CST
+"rc4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/39 Testing: hash_drbg
+16/39 Test: hash_drbg
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/hash_drbgtest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"hash_drbg" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+sha1_drbg test 1 ok
+ca50ec95c7c38a58129fd37523d1f2598ce6de98a6f107724c5546beadaa5bafbf1e62d274843f1107c345b1288163f1dd24afb27a63d39ee2aa770dfca668eb134abe080578b2f8d1a3a899f5a00af7
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"hash_drbg" end time: Sep 04 21:00 CST
+"hash_drbg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/39 Testing: block_cipher
+17/39 Test: block_cipher
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/block_ciphertest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"block_cipher" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"block_cipher" end time: Sep 04 21:00 CST
+"block_cipher" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/39 Testing: digest
+18/39 Test: digest
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/digesttest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"digest" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+sha1 (20) a9993e364706816aba3e25717850c26c9cd0d89d
+sm3 (32) 66c7f0f462eeedd9d1f2d46bdc10e4e24167c4875cf2f7a2297da02b8f4ba8e0
+sha224 (28) 23097d223405d8228642a477bda255b32aadbce4bda0b3f7e36c9da7
+sha256 (32) ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad
+sha384 (48) cb00753f45a35e8bb5a03d699ac65007272c32ab0eded1631a8b605a43ff5bed8086072ba1e7cc2358baeca134c825a7
+sha512 (64) ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f
+sha512-224 (28) ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee6
+sha512-256 (32) ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"digest" end time: Sep 04 21:00 CST
+"digest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/39 Testing: hmac
+19/39 Test: hmac
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/hmactest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"hmac" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+ok
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"hmac" end time: Sep 04 21:00 CST
+"hmac" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/39 Testing: hkdf
+20/39 Test: hkdf
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/hkdftest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"hkdf" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test 1
+Hash = sha256
+IKM  = : 0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B
+salt = : 000102030405060708090A0B0C
+info = : F0F1F2F3F4F5F6F7F8F9
+L    = 42
+PRK  = : 077709362C2E32DF0DDC3F0DC47BBA6390B6C73BB50F9C3122EC844AD7C2B3E5
+     = : 077709362C2E32DF0DDC3F0DC47BBA6390B6C73BB50F9C3122EC844AD7C2B3E5
+OKM  = : 3CB25F25FAACD57A90434F64D0362F2A2D2D0A90CF1A5A4C5DB02D56ECC4C5BF34007208D5B887185865
+     = : 3CB25F25FAACD57A90434F64D0362F2A2D2D0A90CF1A5A4C5DB02D56ECC4C5BF34007208D5B887185865
+
+test 2
+Hash = sha256
+IKM  = : 000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F202122232425262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F404142434445464748494A4B4C4D4E4F
+salt = : 606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D7E7F808182838485868788898A8B8C8D8E8F909192939495969798999A9B9C9D9E9FA0A1A2A3A4A5A6A7A8A9AAABACADAEAF
+info = : B0B1B2B3B4B5B6B7B8B9BABBBCBDBEBFC0C1C2C3C4C5C6C7C8C9CACBCCCDCECFD0D1D2D3D4D5D6D7D8D9DADBDCDDDEDFE0E1E2E3E4E5E6E7E8E9EAEBECEDEEEFF0F1F2F3F4F5F6F7F8F9FAFBFCFDFEFF
+L    = 82
+PRK  = : 06A6B88C5853361A06104C9CEB35B45CEF760014904671014A193F40C15FC244
+     = : 06A6B88C5853361A06104C9CEB35B45CEF760014904671014A193F40C15FC244
+OKM  = : B11E398DC80327A1C8E7F78C596A49344F012EDA2D4EFAD8A050CC4C19AFA97C59045A99CAC7827271CB41C65E590E09DA3275600C2F09B8367793A9ACA3DB71CC30C58179EC3E87C14C01D5C1F3434F1D87
+     = : B11E398DC80327A1C8E7F78C596A49344F012EDA2D4EFAD8A050CC4C19AFA97C59045A99CAC7827271CB41C65E590E09DA3275600C2F09B8367793A9ACA3DB71CC30C58179EC3E87C14C01D5C1F3434F1D87
+
+test 3
+Hash = sha256
+IKM  = : 0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B
+salt = : (null)
+info = : (null)
+L    = 42
+PRK  = : 19EF24A32C717B167F33A91D6F648BDF96596776AFDB6377AC434C1C293CCB04
+     = : 19EF24A32C717B167F33A91D6F648BDF96596776AFDB6377AC434C1C293CCB04
+OKM  = : 8DA4E775A563C18F715F802A063C5A31B8A11F5C5EE1879EC3454E5F3C738D2D9D201395FAA4B61A96C8
+     = : 8DA4E775A563C18F715F802A063C5A31B8A11F5C5EE1879EC3454E5F3C738D2D9D201395FAA4B61A96C8
+
+test 4
+Hash = sha1
+IKM  = : 0B0B0B0B0B0B0B0B0B0B0B
+salt = : 000102030405060708090A0B0C
+info = : F0F1F2F3F4F5F6F7F8F9
+L    = 42
+PRK  = : 9B6C18C432A7BF8F0E71C8EB88F4B30BAA2BA243
+     = : 9B6C18C432A7BF8F0E71C8EB88F4B30BAA2BA243
+OKM  = : 085A01EA1B10F36933068B56EFA5AD81A4F14B822F5B091568A9CDD4F155FDA2C22E422478D305F3F896
+     = : 085A01EA1B10F36933068B56EFA5AD81A4F14B822F5B091568A9CDD4F155FDA2C22E422478D305F3F896
+
+test 5
+Hash = sha1
+IKM  = : 000102030405060708090A0B0C0D0E0F101112131415161718191A1B1C1D1E1F202122232425262728292A2B2C2D2E2F303132333435363738393A3B3C3D3E3F404142434445464748494A4B4C4D4E4F
+salt = : 606162636465666768696A6B6C6D6E6F707172737475767778797A7B7C7D7E7F808182838485868788898A8B8C8D8E8F909192939495969798999A9B9C9D9E9FA0A1A2A3A4A5A6A7A8A9AAABACADAEAF
+info = : B0B1B2B3B4B5B6B7B8B9BABBBCBDBEBFC0C1C2C3C4C5C6C7C8C9CACBCCCDCECFD0D1D2D3D4D5D6D7D8D9DADBDCDDDEDFE0E1E2E3E4E5E6E7E8E9EAEBECEDEEEFF0F1F2F3F4F5F6F7F8F9FAFBFCFDFEFF
+L    = 82
+PRK  = : 8ADAE09A2A307059478D309B26C4115A224CFAF6
+     = : 8ADAE09A2A307059478D309B26C4115A224CFAF6
+OKM  = : 0BD770A74D1160F7C9F12CD5912A06EBFF6ADCAE899D92191FE4305673BA2FFE8FA3F1A4E5AD79F3F334B3B202B2173C486EA37CE3D397ED034C7F9DFEB15C5E927336D0441F4C4300E2CFF0D0900B52D3B4
+     = : 0BD770A74D1160F7C9F12CD5912A06EBFF6ADCAE899D92191FE4305673BA2FFE8FA3F1A4E5AD79F3F334B3B202B2173C486EA37CE3D397ED034C7F9DFEB15C5E927336D0441F4C4300E2CFF0D0900B52D3B4
+
+test 6
+Hash = sha1
+IKM  = : 0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B0B
+salt = : (null)
+info = : (null)
+L    = 42
+PRK  = : DA8C8A73C7FA77288EC6F5E7C297786AA0D32D01
+     = : DA8C8A73C7FA77288EC6F5E7C297786AA0D32D01
+OKM  = : 0AC1AF7002B3D761D1E55298DA9D0506B9AE52057220A306E07B6B87E8DF21D0EA00033DE03984D34918
+     = : 0AC1AF7002B3D761D1E55298DA9D0506B9AE52057220A306E07B6B87E8DF21D0EA00033DE03984D34918
+
+test 7
+Hash = sha1
+IKM  = : 0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C0C
+salt = : (null)
+info = : (null)
+L    = 42
+PRK  = : 2ADCCADA18779E7C2077AD2EB19D3F3E731385DD
+     = : 2ADCCADA18779E7C2077AD2EB19D3F3E731385DD
+OKM  = : 2C91117204D745F3500D636A62F64F0AB3BAE548AA53D423B0D1F27EBBA6F5E5673A081D70CCE7ACFC48
+     = : 2C91117204D745F3500D636A62F64F0AB3BAE548AA53D423B0D1F27EBBA6F5E5673A081D70CCE7ACFC48
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"hkdf" end time: Sep 04 21:00 CST
+"hkdf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/39 Testing: pbkdf2
+21/39 Test: pbkdf2
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/pbkdf2test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"pbkdf2" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_pbkdf2_genkey test 0 ok
+test_pbkdf2_genkey test 1 ok
+test_pbkdf2_genkey test 2 ok
+test_pbkdf2_genkey test 3 ok
+test_pbkdf2_genkey() ok
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"pbkdf2" end time: Sep 04 21:00 CST
+"pbkdf2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/39 Testing: gf128
+22/39 Test: gf128
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/gf128test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"gf128" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_gf128_from_hex() ok
+test_gf128_mul2() ok
+test_gf128_mul() ok
+/home/sm-encrypt/GmSSL-develop/tests/gf128test.c all tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gf128" end time: Sep 04 21:00 CST
+"gf128" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/39 Testing: gcm
+23/39 Test: gcm
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/gcmtest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"gcm" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_ghash() ok
+test_gcm() ok
+/home/sm-encrypt/GmSSL-develop/tests/gcmtest.c all tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"gcm" end time: Sep 04 21:00 CST
+"gcm" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/39 Testing: pkcs8
+24/39 Test: pkcs8
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/pkcs8test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"pkcs8" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+SM2_KEY
+    publicKey
+        x: 0BF110DF35900B22DB283AE36F26447759A1A13E4EC3ACF19F1D3EC33CC9CAC7
+        y: 5E1EA11CFF876FC4CE7E52B2C5E65F543511554E02C35C4CF4FDA1506B0B123A
+    privateKey: 0959F93577A5AC5567D670B9D330D38BF6DC8F5FAEB7B5FA567321765CC1156C
+test_pkcs8: 392
+    encryptionAlgorithm
+        algorithm: pbes2
+        parameters
+            keyDerivationFunc
+                algorithm: pbkdf2
+                parameters
+                    salt: FBCE27AA3C828F076BF494B32918BF62
+                    iterationCount: 65536
+                    keyLength: 16
+                    prf: hmac-sm3
+            encryptionScheme
+                algorithm: sm4-cbc
+                iv: : 83EB496231F4BF38420B864DB456AED6
+    encryptedData: 5BB9A429D621437335F13B74C46F81FC5E54612AA952E9E4E1B8254B9DF3865E9C52A1D6D0B5EFC6D26786A1EADF2C418AD253192CC26C963FC51F94112824D7E10116C4938498BAC5CA986BFD44A2F37270FD6F902344B81849E4628CC7DBB0648AD142792BAB04842A26F536EC00D601351DB0C72A22868B4473C058A5D474BE24279577CD14A5C1043479E9138DA8BC5685DC747EF4038017D58F3F6706ED
+
+
+SM2_KEY
+    publicKey
+        x: 0BF110DF35900B22DB283AE36F26447759A1A13E4EC3ACF19F1D3EC33CC9CAC7
+        y: 5E1EA11CFF876FC4CE7E52B2C5E65F543511554E02C35C4CF4FDA1506B0B123A
+    privateKey: 0959F93577A5AC5567D670B9D330D38BF6DC8F5FAEB7B5FA567321765CC1156C
+test_pkcs8() ok
+<end of output>
+Test time =   0.35 sec
+----------------------------------------------------------
+Test Passed.
+"pkcs8" end time: Sep 04 21:00 CST
+"pkcs8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/39 Testing: ec
+25/39 Test: ec
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/ectest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"ec" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+    sm2p256v1
+    prime192v1
+    prime256v1
+    secp256k1
+    secp384r1
+    secp521r1
+    ECPoint: 0477E4C2C097EA5DE3E04BF0191FF6FAA23741B499837BBAA13E4C6208A7B5D18302F2D3F10F770D455281A32E083CA80A0F577E6B555B80949EC708B50F829523
+    ECPrivateKey
+        version: 1
+        privateKey: E92BF524E5BF7110533CACE6F444A47A0074418396936956CFE47CB6BCA63252
+        parameters: sm2p256v1
+        publicKey
+            ECPoint: 0410DBCFE05162A7A789E8CAD755C36928EBEF0ED98503ABABCB754E6FAE1B4262B94F5C9CD6FC58CA6349C218297985B26EE0DB6717019D92302ED27FBA6D5E40
+test_ec_named_curve() ok
+test_ec_point_print() ok
+test_ec_private_key_print() ok
+/home/sm-encrypt/GmSSL-develop/tests/ectest.c all tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ec" end time: Sep 04 21:00 CST
+"ec" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/39 Testing: asn1
+26/39 Test: asn1
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/asn1test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"asn1" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+Tags:
+    BOOLEAN (0x01)
+    INTEGER (0x02)
+    BIT STRING (0x03)
+    OCTET STRING (0x04)
+    NULL (0x05)
+    OBJECT IDENTIFIER (0x06)
+    ObjectDescriptor (0x07)
+    EXTERNAL (0x08)
+    REAL (0x09)
+    ENUMERATED (0x0a)
+    EMBEDDED (0x0b)
+    UTF8String (0x0c)
+    RELATIVE_OID (0x0d)
+    NumericString (0x12)
+    PrintableString (0x13)
+    TeletexString (0x14)
+    VideotexString (0x15)
+    IA5String (0x16)
+    UTCTime (0x17)
+    GeneralizedTime (0x18)
+    GraphicString (0x19)
+    VisibleString (0x1a)
+    GeneralString (0x1b)
+    UniversalString (0x1c)
+    CHARACTER STRING (0x1d)
+    BMPString (0x1e)
+Length:
+    : 00
+    : 0005
+    : 00057F
+    : 00057F8180
+    : 00057F8180820100
+    : 00057F8180820100820158
+    : 00057F818082010082015883010001
+    : 00057F81808201008201588301000183800000
+    : 00057F818082010082015883010001838000008480000000
+    0
+    5
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:247:asn1_length_from_der(): inlen = 21
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:248:asn1_length_from_der(): length = 127, left = 21
+    127
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:247:asn1_length_from_der(): inlen = 19
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:248:asn1_length_from_der(): length = 128, left = 19
+    128
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:247:asn1_length_from_der(): inlen = 16
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:248:asn1_length_from_der(): length = 256, left = 16
+    256
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:247:asn1_length_from_der(): inlen = 13
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:248:asn1_length_from_der(): length = 344, left = 13
+    344
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:247:asn1_length_from_der(): inlen = 9
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:248:asn1_length_from_der(): length = 65537, left = 9
+    65537
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:247:asn1_length_from_der(): inlen = 5
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:248:asn1_length_from_der(): length = 8388608, left = 5
+    8388608
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:247:asn1_length_from_der(): inlen = 0
+/home/sm-encrypt/GmSSL-develop/src/asn1.c:248:asn1_length_from_der(): length = 2147483648, left = 0
+    2147483648
+BOOLEAN
+    : 010100
+    : 0101000101FF
+    false
+    true
+INTEGER
+    : 020100
+    : 020100020101
+    : 02010002010102017F
+    : 02010002010102017F02020080
+    : 02010002010102017F02020080020300FFFF
+    : 02010002010102017F02020080020300FFFF0203010001
+    : 02010002010102017F02020080020300FFFF0203010001020400800000
+    : 02010002010102017F02020080020300FFFF0203010001020400800000020440000000
+    0
+    1
+    127
+    128
+    65535
+    65537
+    8388608
+    1073741824
+BIT STRING
+    : 03020780
+    : 0302078003020640
+    : 0302078003020640030206C0
+    : 0302078003020640030206C0030201FE
+    : 0302078003020640030206C0030201FE0302007F
+    : 0302078003020640030206C0030201FE0302007F030200FF
+    : 0302078003020640030206C0030201FE0302007F030200FF030300FFFF
+    : 0302078003020640030206C0030201FE0302007F030200FF030300FFFF030404FFFFF0
+    1
+    2
+    3
+    7f
+    fe
+    ff
+    ffff
+    fffff
+NULL
+    : 0500
+    : 05000500
+    : 050005000500
+    NULL
+    NULL
+    NULL
+OBJECT IDENTIFIER
+    sm2     x9.62-ecPublicKey PrintableString
+    : 130568656C6C6F
+    : 130568656C6C6F1305776F726C64
+    : 130568656C6C6F1305776F726C64130B4A75737420646F20697421
+    : hello
+    : world
+    : Just do it!
+UTF8String
+    : 0C0568656C6C6F
+    : 0C0568656C6C6F0C05776F726C64
+    : 0C0568656C6C6F0C05776F726C640C0B4A75737420646F20697421
+    : hello
+    : world
+    : Just do it!
+IA5String
+    : 160568656C6C6F
+    : 160568656C6C6F1605776F726C64
+    : 160568656C6C6F1605776F726C64160B4A75737420646F20697421
+    : hello
+    : world
+    : Just do it!
+UTCTime
+    : 170D3730303130313030303030305A
+    : 170D3730303130313030303030305A170D3232303930343133303034385A
+    : 170D3730303130313030303030305A170D3232303930343133303034385A170D3034303131303133333730345A
+    Thu Jan  1 08:00:00 1970
+    Sun Sep  4 21:00:48 2022
+    Sat Jan 10 21:37:04 2004
+GeneralizedTime
+    : 180F32303232303930343133303034385A
+    : 180F32303232303930343133303034385A180F32303034303131303133333730345A
+    Sun Sep  4 21:00:48 2022
+    Sat Jan 10 21:37:04 2004
+test_asn1_tag() ok
+test_asn1_length() ok
+test_asn1_boolean() ok
+test_asn1_int() ok
+test_asn1_bits() ok
+test_asn1_null() ok
+ok
+ok
+test_asn1_object_identifier() ok
+test_asn1_printable_string() ok
+test_asn1_utf8_string() ok
+test_asn1_ia5_string() ok
+test_asn1_utc_time() ok
+test_asn1_generalized_time() ok
+/home/sm-encrypt/GmSSL-develop/tests/asn1test.c all tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"asn1" end time: Sep 04 21:00 CST
+"asn1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/39 Testing: hex
+27/39 Test: hex
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/hextest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"hex" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"hex" end time: Sep 04 21:00 CST
+"hex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/39 Testing: base64
+28/39 Test: base64
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/base64test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"base64" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+base64 test ok
+/home/sm-encrypt/GmSSL-develop/tests/base64test.c all tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"base64" end time: Sep 04 21:00 CST
+"base64" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/39 Testing: pem
+29/39 Test: pem
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/pemtest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"pem" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"pem" end time: Sep 04 21:00 CST
+"pem" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/39 Testing: x509
+30/39 Test: x509
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/x509test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"x509" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+Version
+    : A003020100
+    : A003020100A103020101
+    : A003020100A103020101A203020102
+    : A003020100A103020101A203020102
+    v1
+    v2
+    v3
+    (null)
+Validity
+    : 301E170D3232303930343133303034385A170D3233303930343035303034385A
+AttributeTypeAndValue
+    : 300E060355040713074861696469616E
+    localityName : PrintableString : Haidian
+RDN
+    : 3110300E060355040713074861696469616E
+    localityName : PrintableString : Haidian
+    : 310B300906035504061302434E
+    : 310B300906035504061302434E3110300E060355040713074861696469616E
+    : 310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67
+    : 310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67310C300A060355040A1303504B55
+    : 310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67310C300A060355040A1303504B55310B3009060355040B13024353
+    : 310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67310C300A060355040A1303504B55310B3009060355040B13024353310B3009060355040313024341
+tbs_cert: 3082015AA00302010202140100000000000000000000000000000000000000300C06082A811CCF5501837505003059310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67310C300A060355040A1303504B55310B3009060355040B13024353310B3009060355040313024341301E170D3232303930343133303034385A170D3233303930343035303034385A3059310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67310C300A060355040A1303504B55310B3009060355040B13024353310B30090603550403130243413059301306072A8648CE3D020106082A811CCF5501822D034200047E1778DC6EB7D0C7237425EA032A5A8DACE9757704F5E71B16AD73B180104D787B8B04841EBB58454E937749A77D9E873E34E5D4AAFFAE3C8F77C1D50F85F3B4
+    TBSCertificate
+        version: v3 (2)
+        serialNumber: 0100000000000000000000000000000000000000
+        siganture: sm2sign-with-sm3
+        issuer
+            countryName: CN
+            localityName: Haidian
+            stateOrProvinceName: Beijing
+            organizationName: PKU
+            organizationalUnitName: CS
+            commonName: CA
+        validity
+            notBefore: Sun Sep  4 21:00:48 2022
+            notAfter: Mon Sep  4 13:00:48 2023
+        subject
+            countryName: CN
+            localityName: Haidian
+            stateOrProvinceName: Beijing
+            organizationName: PKU
+            organizationalUnitName: CS
+            commonName: CA
+        subjectPulbicKeyInfo
+            algorithm
+                algorithm: ecPublicKey
+                namedCurve: sm2p256v1
+            subjectPublicKey
+                ECPoint: 047E1778DC6EB7D0C7237425EA032A5A8DACE9757704F5E71B16AD73B180104D787B8B04841EBB58454E937749A77D9E873E34E5D4AAFFAE3C8F77C1D50F85F3B4
+    cert: 308201B53082015AA00302010202140100000000000000000000000000000000000000300C06082A811CCF5501837505003059310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67310C300A060355040A1303504B55310B3009060355040B13024353310B3009060355040313024341301E170D3232303930343133303034385A170D3233303930343035303034385A3059310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67310C300A060355040A1303504B55310B3009060355040B13024353310B30090603550403130243413059301306072A8648CE3D020106082A811CCF5501822D034200049D09AFB35F0CC22F3AD4B16B2AB027A806DD7C6A930B969F281A975F0187D4ADB4F86992ABBC671770ED8B35B2F1F9E7C4721A58F9EF39A531B254D3DF9CEFB8300C06082A811CCF550183750500034700304402205F6570B48DF95EE12A2F2E4CC33EB90AB6E56838DF8861A49DF8D1670AFE0A810220276189CB9472F9E6C75F795AE2F402363D7228678B0AD26B5C81E8E26A69EBEC
+    Certificate
+        tbsCertificate
+            version: v3 (2)
+            serialNumber: 0100000000000000000000000000000000000000
+            siganture: sm2sign-with-sm3
+            issuer
+                countryName: CN
+                localityName: Haidian
+                stateOrProvinceName: Beijing
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: CA
+            validity
+                notBefore: Sun Sep  4 21:00:48 2022
+                notAfter: Mon Sep  4 13:00:48 2023
+            subject
+                countryName: CN
+                localityName: Haidian
+                stateOrProvinceName: Beijing
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: CA
+            subjectPulbicKeyInfo
+                algorithm
+                    algorithm: ecPublicKey
+                    namedCurve: sm2p256v1
+                subjectPublicKey
+                    ECPoint: 049D09AFB35F0CC22F3AD4B16B2AB027A806DD7C6A930B969F281A975F0187D4ADB4F86992ABBC671770ED8B35B2F1F9E7C4721A58F9EF39A531B254D3DF9CEFB8
+        signatureAlgorithm: sm2sign-with-sm3
+        signatureValue: 304402205F6570B48DF95EE12A2F2E4CC33EB90AB6E56838DF8861A49DF8D1670AFE0A810220276189CB9472F9E6C75F795AE2F402363D7228678B0AD26B5C81E8E26A69EBEC
+    SerialNumber: 0100000000000000000000000000000000000000
+    Issuer
+        countryName: CN
+        localityName: Haidian
+        stateOrProvinceName: Beijing
+        organizationName: PKU
+        organizationalUnitName: CS
+        commonName: CA
+    Subject
+        countryName: CN
+        localityName: Haidian
+        stateOrProvinceName: Beijing
+        organizationName: PKU
+        organizationalUnitName: CS
+        commonName: CA
+    SubjectPublicKey
+        x: 9D09AFB35F0CC22F3AD4B16B2AB027A806DD7C6A930B969F281A975F0187D4AD
+        y: B4F86992ABBC671770ED8B35B2F1F9E7C4721A58F9EF39A531B254D3DF9CEFB8
+-----BEGIN CERTIFICATE-----
+MIIBtTCCAVqgAwIBAgIUAQAAAAAAAAAAAAAAAAAAAAAAAAAwDAYIKoEcz1UBg3UF
+ADBZMQswCQYDVQQGEwJDTjEQMA4GA1UEBxMHSGFpZGlhbjEQMA4GA1UECBMHQmVp
+amluZzEMMAoGA1UEChMDUEtVMQswCQYDVQQLEwJDUzELMAkGA1UEAxMCQ0EwHhcN
+MjIwOTA0MTMwMDQ4WhcNMjMwOTA0MDUwMDQ4WjBZMQswCQYDVQQGEwJDTjEQMA4G
+A1UEBxMHSGFpZGlhbjEQMA4GA1UECBMHQmVpamluZzEMMAoGA1UEChMDUEtVMQsw
+CQYDVQQLEwJDUzELMAkGA1UEAxMCQ0EwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNC
+AASdCa+zXwzCLzrUsWsqsCeoBt18apMLlp8oGpdfAYfUrbT4aZKrvGcXcO2LNbLx
++efEchpY+e85pTGyVNPfnO+4MAwGCCqBHM9VAYN1BQADRwAwRAIgX2VwtI35XuEq
+Ly5Mwz65CrblaDjfiGGknfjRZwr+CoECICdhicuUcvnmx195WuL0AjY9cihniwrS
+a1yB6OJqaevs
+-----END CERTIFICATE-----
+    Certificate
+        tbsCertificate
+            version: v3 (2)
+            serialNumber: 0100000000000000000000000000000000000000
+            siganture: sm2sign-with-sm3
+            issuer
+                countryName: CN
+                localityName: Haidian
+                stateOrProvinceName: Beijing
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: CA
+            validity
+                notBefore: Sun Sep  4 21:00:48 2022
+                notAfter: Mon Sep  4 13:00:48 2023
+            subject
+                countryName: CN
+                localityName: Haidian
+                stateOrProvinceName: Beijing
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: CA
+            subjectPulbicKeyInfo
+                algorithm
+                    algorithm: ecPublicKey
+                    namedCurve: sm2p256v1
+                subjectPublicKey
+                    ECPoint: 049D09AFB35F0CC22F3AD4B16B2AB027A806DD7C6A930B969F281A975F0187D4ADB4F86992ABBC671770ED8B35B2F1F9E7C4721A58F9EF39A531B254D3DF9CEFB8
+        signatureAlgorithm: sm2sign-with-sm3
+        signatureValue: 304402205F6570B48DF95EE12A2F2E4CC33EB90AB6E56838DF8861A49DF8D1670AFE0A810220276189CB9472F9E6C75F795AE2F402363D7228678B0AD26B5C81E8E26A69EBEC
+test_x509_version() ok
+test_x509_validity() ok
+test_x509_attr_type_and_value() ok
+test_x509_rdn() ok
+der : 310B300906035504061302434E3110300E060355040713074861696469616E3110300E060355040813074265696A696E67310C300A060355040A1303504B55310B3009060355040B13024353310B3009060355040313024341
+Name
+    countryName: CN
+    localityName: Haidian
+    stateOrProvinceName: Beijing
+    organizationName: PKU
+    organizationalUnitName: CS
+    commonName: CA
+PublicKeyInfo
+    algorithm
+        algorithm: ecPublicKey
+        namedCurve: sm2p256v1
+    subjectPublicKey
+        ECPoint: 0472AE09290CCEEC5FD9536314012C4E0C8B4D11952880AACEF75A96336AE8140B93C3CDD585B1BFF2B13BB62575153529DA511EC5FC3C2E8030F1A7AB953A3DE5
+        ECPublicKey
+            x: 89913F17CC164D8A94705BF13B26D28F6138F5329D26D5ABF720A8B4DB5B0BC6
+            y: C544077441BCB8B302EA6D1D98E1EA04A579AAAD981E12A0CAACA160BF81DD72
+test_x509_public_key_info() ok
+x509_cert_verify() success
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"x509" end time: Sep 04 21:00 CST
+"x509" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/39 Testing: x509_oid
+31/39 Test: x509_oid
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/x509_oidtest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"x509_oid" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+DER
+    : 0603550429
+    : 06035504290603550404
+    : 06035504290603550404060355042A
+    : 06035504290603550404060355042A060355042B
+    : 06035504290603550404060355042A060355042B060355042C
+    : 06035504290603550404060355042A060355042B060355042C0603550403
+    : 06035504290603550404060355042A060355042B060355042C06035504030603550407
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408060355040A
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408060355040A060355040B
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408060355040A060355040B060355040C
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408060355040A060355040B060355040C060355042E
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408060355040A060355040B060355040C060355042E0603550406
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408060355040A060355040B060355040C060355042E06035504060603550405
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408060355040A060355040B060355040C060355042E060355040606035504050603550441
+    : 06035504290603550404060355042A060355042B060355042C060355040306035504070603550408060355040A060355040B060355040C060355042E060355040606035504050603550441060A0992268993F22C640119
+OID
+    name
+    surname
+    givenName
+    initials
+    generationQualifier
+    commonName
+    localityName
+    stateOrProvinceName
+    organizationName
+    organizationalUnitName
+    title
+    dnQualifier
+    countryName
+    serialNumber
+    pseudonym
+    domainComponent
+DER
+    : 0603551D23
+    : 0603551D230603551D0E
+    : 0603551D230603551D0E0603551D0F
+    : 0603551D230603551D0E0603551D0F0603551D20
+    : 0603551D230603551D0E0603551D0F0603551D200603551D21
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D11
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D12
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D120603551D09
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D120603551D090603551D13
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D120603551D090603551D130603551D1E
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D120603551D090603551D130603551D1E0603551D24
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D120603551D090603551D130603551D1E0603551D240603551D25
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D120603551D090603551D130603551D1E0603551D240603551D250603551D1F
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D120603551D090603551D130603551D1E0603551D240603551D250603551D1F0603551D36
+    : 0603551D230603551D0E0603551D0F0603551D200603551D210603551D110603551D120603551D090603551D130603551D1E0603551D240603551D250603551D1F0603551D360603551D2E
+ExtnID
+    AuthorityKeyIdentifier
+    SubjectKeyIdentifier
+    KeyUsage
+    CertificatePolicies
+    PolicyMappings
+    SubjectAltName
+    IssuerAltName
+    SubjectDirectoryAttributes
+    BasicConstraints
+    NameConstraints
+    PolicyConstraints
+    ExtKeyUsage
+    CRLDistributionPoints
+    InhibitAnyPolicy
+    FreshestCRL
+DER
+    : 06082B06010505070201
+    : 06082B0601050507020106082B06010505070202
+OID
+    CPS
+    userNotice
+DER
+    : 0604551D2000
+OID
+    anyPolicy
+DER
+    : 06082B06010505070301
+    : 06082B0601050507030106082B06010505070302
+    : 06082B0601050507030106082B0601050507030206082B06010505070303
+    : 06082B0601050507030106082B0601050507030206082B0601050507030306082B06010505070304
+    : 06082B0601050507030106082B0601050507030206082B0601050507030306082B0601050507030406082B06010505070308
+    : 06082B0601050507030106082B0601050507030206082B0601050507030306082B0601050507030406082B0601050507030806082B06010505070309
+OID
+    serverAuth
+    clientAuth
+    codeSigning
+    emailProtection
+    timeStamping
+    OCSPSigning
+test_x509_name_type() ok
+test_x509_ext_id() ok
+test_x509_qualifier_id() ok
+test_x509_cert_policy_id() ok
+test_x509_key_purpose() ok
+/home/sm-encrypt/GmSSL-develop/tests/x509_oidtest.c all tests passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"x509_oid" end time: Sep 04 21:00 CST
+"x509_oid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/39 Testing: x509_alg
+32/39 Test: x509_alg
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/x509_algtest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"x509_alg" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+DER
+    : 300A06082A811CCF55018311
+    : 300A06082A811CCF55018311300A06082A864886F70D0205
+    : 300A06082A811CCF55018311300A06082A864886F70D0205300706052B0E03021A
+    : 300A06082A811CCF55018311300A06082A864886F70D0205300706052B0E03021A300B0609608648016503040204
+    : 300A06082A811CCF55018311300A06082A864886F70D0205300706052B0E03021A300B0609608648016503040204300B0609608648016503040201
+    : 300A06082A811CCF55018311300A06082A864886F70D0205300706052B0E03021A300B0609608648016503040204300B0609608648016503040201300B0609608648016503040202
+    : 300A06082A811CCF55018311300A06082A864886F70D0205300706052B0E03021A300B0609608648016503040204300B0609608648016503040201300B0609608648016503040202300B0609608648016503040203
+OID
+    sm3
+    md5
+    sha1
+    sha224
+    sha256
+    sha384
+    sha512
+DER
+    : 301C06082A811CCF55016802041000000000000000000000000000000000
+    : 301C06082A811CCF55016802041000000000000000000000000000000000301D0609608648016503040102041000000000000000000000000000000000
+    : 301C06082A811CCF55016802041000000000000000000000000000000000301D0609608648016503040102041000000000000000000000000000000000301D0609608648016503040116041000000000000000000000000000000000
+    : 301C06082A811CCF55016802041000000000000000000000000000000000301D0609608648016503040102041000000000000000000000000000000000301D0609608648016503040116041000000000000000000000000000000000301D060960864801650304012A041000000000000000000000000000000000
+OID
+    sm4-cbc
+    aes128-cbc
+    aes192-cbc
+    aes256-cbc
+DER
+    : 300C06082A811CCF550183750500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500300C06082A8648CE3D0403020500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500300C06082A8648CE3D0403020500300C06082A8648CE3D0403030500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500300C06082A8648CE3D0403020500300C06082A8648CE3D0403030500300C06082A8648CE3D0403040500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500300C06082A8648CE3D0403020500300C06082A8648CE3D0403030500300C06082A8648CE3D0403040500300D06092A864886F70D0101050500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500300C06082A8648CE3D0403020500300C06082A8648CE3D0403030500300C06082A8648CE3D0403040500300D06092A864886F70D0101050500300D06092A864886F70D01010E0500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500300C06082A8648CE3D0403020500300C06082A8648CE3D0403030500300C06082A8648CE3D0403040500300D06092A864886F70D0101050500300D06092A864886F70D01010E0500300D06092A864886F70D01010B0500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500300C06082A8648CE3D0403020500300C06082A8648CE3D0403030500300C06082A8648CE3D0403040500300D06092A864886F70D0101050500300D06092A864886F70D01010E0500300D06092A864886F70D01010B0500300D06092A864886F70D01010C0500
+    : 300C06082A811CCF550183750500300C06082A811CCF550183780500300B06072A8648CE3D04010500300C06082A8648CE3D0403010500300C06082A8648CE3D0403020500300C06082A8648CE3D0403030500300C06082A8648CE3D0403040500300D06092A864886F70D0101050500300D06092A864886F70D01010E0500300D06092A864886F70D01010B0500300D06092A864886F70D01010C0500300D06092A864886F70D01010D0500
+OID
+    sm2sign-with-sm3
+    rsasign-with-sm3
+    ecdsa-with-sha1
+    ecdsa-with-sha224
+    ecdsa-with-sha256
+    ecdsa-with-sha384
+    ecdsa-with-sha512
+    sha1WithRSAEncryption
+    sha224WithRSAEncryption
+    sha256WithRSAEncryption
+    sha384WithRSAEncryption
+    sha512WithRSAEncryption
+DER
+    : 300B06092A811CCF5501822D02
+OID
+    sm2encrypt
+test_x509_digest_algor() ok
+test_x509_encryption_algor() ok
+test_x509_signature_algor() ok
+test_x509_public_key_encryption_algor() ok
+/home/sm-encrypt/GmSSL-develop/tests/x509_algtest.c all tests passed!
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"x509_alg" end time: Sep 04 21:00 CST
+"x509_alg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/39 Testing: x509_str
+33/39 Test: x509_str
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/x509_strtest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"x509_str" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_x509_directory_name() ok
+test_x509_display_text() ok
+/home/sm-encrypt/GmSSL-develop/tests/x509_strtest.c all tests passed!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"x509_str" end time: Sep 04 21:00 CST
+"x509_str" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/39 Testing: x509_ext
+34/39 Test: x509_ext
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/x509_exttest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"x509_ext" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+OtherName
+    type-id: (unknown) (1.3.5)
+    value: 300100
+    type-id: (unknown) (1.3.5)
+    value: 300100
+EDIPartyName
+    nameAssigner: Hello
+    partyName: World
+    nameAssigner: Hello
+    partyName: World
+GeneralNames
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c 462: tag = 80
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:463:x509_general_name_from_der():
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:611:x509_general_names_print():
+AuthorityKeyIdentifier
+    keyIdentifier: 66C7F0F462EEEDD9D1F2D46BDC10E4E24167C4875CF2F7A2297DA02B8F4BA8E0
+    authorityCertIssuer
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c 462: tag = 80
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:463:x509_general_name_from_der():
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:611:x509_general_names_print():
+    authorityCertSerialNumber: 90597E74040A54D75C2EF9DAEA080A7086899195
+    0 digitalSignature
+    1 nonRepudiation
+    2 keyEncipherment
+    3 dataEncipherment
+    4 keyAgreement
+    5 keyCertSign
+    6 cRLSign
+    7 encipherOnly
+    8 decipherOnly
+    : 03020700
+    : 0302070003020780
+    : 030207000302078003020640
+    : 03020700030207800302064003020142
+    : 03020700030207800302064003020142030205E0
+    : 03020700030207800302064003020142030205E003020410
+    : 03020700030207800302064003020142030205E003020410030307C080
+    : 03020700030207800302064003020142030205E003020410030307C080030307FF80
+    KeyUsage: 
+    KeyUsage: digitalSignature
+    KeyUsage: nonRepudiation
+    KeyUsage: nonRepudiation,cRLSign
+    KeyUsage: digitalSignature,nonRepudiation,keyEncipherment
+    KeyUsage: dataEncipherment
+    KeyUsage: digitalSignature,nonRepudiation,decipherOnly
+    KeyUsage: digitalSignature,nonRepudiation,keyEncipherment,dataEncipherment,keyAgreement,keyCertSign,cRLSign,encipherOnly,decipherOnly
+NoticeReference
+    organization: Hello
+    noticeNumbers: 1,2,3,4,5
+UserNotice
+    noticeRef
+        organization: Hello
+        noticeNumbers: 1,2,3,4,5
+    explicitText: World
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:921:x509_policy_qualifier_info_print():
+PolicyMapping
+    issuerDomainPolicy: anyPolicy (2.5.29.32.0)
+    subjectDomainPolicy: anyPolicy (2.5.29.32.0)
+BasicConstraints
+    cA: true
+    pathLenConstraint: 4
+BasicConstraints
+    cA: false
+    pathLenConstraint: 4
+BasicConstraints
+    cA: false
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:1225:x509_basic_constraints_from_der():
+GeneralSubtree
+    base
+        DNSName: www.pku.edu.cn
+    minimum: 1
+    maximum: 5
+PolicyConstraints
+    requireExplicitPolicy: 2
+    inhibitPolicyMapping: 5
+PolicyConstraints
+    requireExplicitPolicy: 2
+PolicyConstraints
+    inhibitPolicyMapping: 5
+ExtKeyUsageSyntax
+    serverAuth
+    clientAuth
+    codeSigning
+    emailProtection
+    timeStamping
+    OCSPSigning
+    : 03020700
+    : 0302070003020780
+    : 030207000302078003020640
+    : 0302070003020780030206400303070980
+    : 0302070003020780030206400303070980030307FF80
+    ReasonFlags: 
+    ReasonFlags: unused
+    ReasonFlags: keyCompromise
+    ReasonFlags: superseded,privilegeWithdrawn,aACompromise
+    ReasonFlags: unused,keyCompromise,cACompromise,affiliationChanged,superseded,cessationOfOperation,certificateHold,privilegeWithdrawn,aACompromise
+Extensions
+    Extension
+        extnID: AuthorityKeyIdentifier (2.5.29.35)
+        critical: true
+        AuthorityKeyIdentifier
+            keyIdentifier: 0100000000000000000000000000000000000000000000000000000000000000
+            authorityCertIssuer
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c 462: tag = 80
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:463:x509_general_name_from_der():
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:611:x509_general_names_print():
+            authorityCertSerialNumber: 0200000000000000000000000000000000000000
+    Extension
+        extnID: SubjectKeyIdentifier (2.5.29.14)
+        critical: false
+        SubjectKeyIdentifier: 0100000000000000000000000000000000000000000000000000000000000000
+    Extension
+        extnID: KeyUsage (2.5.29.15)
+        critical: false
+        KeyUsage: nonRepudiation,cRLSign
+Certificate
+    tbsCertificate
+        version: v3 (2)
+        serialNumber: 1467F6FAA857E1D9851E30CE6190718904DCECB0
+        siganture: sm2sign-with-sm3
+        issuer
+            countryName: CN
+            stateOrProvinceName: Beijing
+            localityName: Haidian
+            organizationName: PKU
+            organizationalUnitName: CS
+            commonName: CA
+        validity
+            notBefore: Sun Sep  4 21:00:48 2022
+            notAfter: Mon Sep  4 13:00:48 2023
+        subject
+            countryName: CN
+            stateOrProvinceName: Beijing
+            localityName: Haidian
+            organizationName: PKU
+            organizationalUnitName: CS
+            commonName: CA
+        subjectPulbicKeyInfo
+            algorithm
+                algorithm: ecPublicKey
+                namedCurve: sm2p256v1
+            subjectPublicKey
+                ECPoint: 043F81247295C613C367AD5562E1DF709B2C125BD5BC2860F54BF88FE99EA0C946ACFFB6764FC65FBF8FA62E6EB7700FD1D9E133E15BB82998D953C8662F586383
+        issuerUniqueID: 70B499B99A3AFA2310FD4E555CE0FBA30A3DBBBD9A80F16021EDE21E32F33528
+        subjectUniqueID: 70B499B99A3AFA2310FD4E555CE0FBA30A3DBBBD9A80F16021EDE21E32F33528
+        extensions
+            Extension
+                extnID: AuthorityKeyIdentifier (2.5.29.35)
+                critical: true
+                AuthorityKeyIdentifier
+                    keyIdentifier: 0100000000000000000000000000000000000000000000000000000000000000
+                    authorityCertIssuer
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c 462: tag = 80
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:463:x509_general_name_from_der():
+/home/sm-encrypt/GmSSL-develop/src/x509_ext.c:611:x509_general_names_print():
+                    authorityCertSerialNumber: 1467F6FAA857E1D9851E30CE6190718904DCECB0
+            Extension
+                extnID: SubjectKeyIdentifier (2.5.29.14)
+                critical: false
+                SubjectKeyIdentifier: 0100000000000000000000000000000000000000000000000000000000000000
+            Extension
+                extnID: KeyUsage (2.5.29.15)
+                critical: false
+                KeyUsage: nonRepudiation,cRLSign
+    signatureAlgorithm: sm2sign-with-sm3
+    signatureValue: 3045022066FCB4E36C368A4D21D62C81B1295067A9ADEDC3F05BAD413988F9763180255E02210093871148E97C29BD2DD6DF9AE96CDFE7EE44DFF803FE7AB4851F219A0B2C3CE6
+test_x509_other_name() ok
+test_x509_edi_party_name() ok
+uint8_t general_names[202] = {
+	0x80,0x0b,0x06,0x03,0x2b,0x05,0x07,0xa0,0x04,0x04,0x02,0x05,0x05,0x81,0x0f,0x67,
+	0x75,0x61,0x6e,0x40,0x70,0x6b,0x75,0x2e,0x65,0x64,0x75,0x2e,0x63,0x6e,0x82,0x0e,
+	0x77,0x77,0x77,0x2e,0x70,0x6b,0x75,0x2e,0x65,0x64,0x75,0x2e,0x63,0x6e,0x83,0x02,
+	0x30,0x00,0x84,0x59,0x31,0x0b,0x30,0x09,0x06,0x03,0x55,0x04,0x06,0x13,0x02,0x43,
+	0x4e,0x31,0x10,0x30,0x0e,0x06,0x03,0x55,0x04,0x08,0x13,0x07,0x42,0x65,0x69,0x6a,
+	0x69,0x6e,0x67,0x31,0x10,0x30,0x0e,0x06,0x03,0x55,0x04,0x07,0x13,0x07,0x48,0x61,
+	0x69,0x64,0x69,0x61,0x6e,0x31,0x0c,0x30,0x0a,0x06,0x03,0x55,0x04,0x0a,0x13,0x03,
+	0x50,0x4b,0x55,0x31,0x0b,0x30,0x09,0x06,0x03,0x55,0x04,0x0b,0x13,0x02,0x43,0x53,
+	0x31,0x0b,0x30,0x09,0x06,0x03,0x55,0x04,0x03,0x13,0x02,0x43,0x41,0x85,0x19,0xa0,
+	0x0a,0x13,0x08,0x41,0x73,0x73,0x69,0x67,0x6e,0x65,0x72,0xa1,0x0b,0x13,0x09,0x50,
+	0x61,0x72,0x74,0x79,0x4e,0x61,0x6d,0x65,0x86,0x10,0x68,0x74,0x74,0x70,0x3a,0x2f,
+	0x2f,0x6c,0x6f,0x63,0x61,0x6c,0x68,0x6f,0x73,0x74,0x87,0x09,0x31,0x32,0x37,0x2e,
+	0x30,0x2e,0x30,0x2e,0x31,0x88,0x03,0x54,0x06,0x08,
+};
+test_x509_general_name() ok
+test_x509_authority_key_identifier() ok
+test_x509_key_usage() ok
+test_x509_notice_reference() ok
+test_x509_user_notice() ok
+test_x509_policy_qualifier_info() ok
+test_x509_policy_mapping() ok
+test_x509_basic_constraints() ok
+test_x509_general_subtree() ok
+test_x509_policy_constraints() ok
+test_x509_ext_key_usage() ok
+test_x509_revoke_reasons() ok
+test_x509_exts() ok
+/home/sm-encrypt/GmSSL-develop/tests/x509_exttest.c all tests passed!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"x509_ext" end time: Sep 04 21:00 CST
+"x509_ext" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/39 Testing: x509_req
+35/39 Test: x509_req
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/x509_reqtest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"x509_req" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+CertificationRequestInfo
+    version: v1 (0)
+    subject
+        countryName: CN
+        stateOrProvinceName: Beijing
+        localityName: Haidian
+        organizationName: PKU
+        organizationalUnitName: CS
+        commonName: CA
+    subjectPublicKeyInfo
+        algorithm
+            algorithm: ecPublicKey
+            namedCurve: sm2p256v1
+        subjectPublicKey
+            ECPoint: 04FC241CE1CCC18866AB12AE60A76D2BF0D0FF823A653E4294FC60F6A9B3C899B1F0036FC717DD542171C425747ED09CA8F85CF295081C427BA02D06487494FB60
+CertificationRequestInfo
+    version: 0
+    subject
+        countryName: CN
+        stateOrProvinceName: Beijing
+        localityName: Haidian
+        organizationName: PKU
+        organizationalUnitName: CS
+        commonName: CA
+    publicKey
+        x: FC241CE1CCC18866AB12AE60A76D2BF0D0FF823A653E4294FC60F6A9B3C899B1
+        y: F0036FC717DD542171C425747ED09CA8F85CF295081C427BA02D06487494FB60
+    attributes: (null)
+CertificationRequest
+    certificationRequestInfo
+        version: v1 (0)
+        subject
+            countryName: CN
+            stateOrProvinceName: Beijing
+            localityName: Haidian
+            organizationName: PKU
+            organizationalUnitName: CS
+            commonName: CA
+        subjectPublicKeyInfo
+            algorithm
+                algorithm: ecPublicKey
+                namedCurve: sm2p256v1
+            subjectPublicKey
+                ECPoint: 044EA99C014964495D510B53C5979A37637E048CABE84247604D20C6C62C9739DF141C7ACF220850F3049EE9260A6C5DF3924757015C8B79AA354715C2ECA9C12E
+    signatureAlgorithm
+        algorithm: sm2sign-with-sm3
+        parameters: NULL
+    signature: : 0102000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+CertificationRequest
+    version: 0
+    subject
+        countryName: CN
+        stateOrProvinceName: Beijing
+        localityName: Haidian
+        organizationName: PKU
+        organizationalUnitName: CS
+        commonName: CA
+    publicKey
+        x: 4EA99C014964495D510B53C5979A37637E048CABE84247604D20C6C62C9739DF
+        y: 141C7ACF220850F3049EE9260A6C5DF3924757015C8B79AA354715C2ECA9C12E
+    attributes: (null)
+    signatureAlgor: sm2sign-with-sm3
+    signature: 0102000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+CertificationRequest
+    certificationRequestInfo
+        version: v1 (0)
+        subject
+            countryName: CN
+            stateOrProvinceName: Beijing
+            localityName: Haidian
+            organizationName: PKU
+            organizationalUnitName: CS
+            commonName: CA
+        subjectPublicKeyInfo
+            algorithm
+                algorithm: ecPublicKey
+                namedCurve: sm2p256v1
+            subjectPublicKey
+                ECPoint: 04C19C9AD5F9E278A1E5E7E56DD7FFDF8A434D8A1F1CCEA009C57EB06863D4F152C54BDE873F3788BC9BAB1B5B9B5D5B8E125BE20831CC2C0268DFD2B5BD16098D
+    signatureAlgorithm
+        algorithm: sm2sign-with-sm3
+        parameters: NULL
+    signature: : 3045022100BFFC236E35572F20415289AC6449C942C5C2AB3C60EC94ED7B885073920D7EB902200EB313AD7CCA5A79B8BD38767AD8C97D321CC2054564BA51303B22F17AF5F4F9
+-----BEGIN CERTIFICATE REQUEST-----
+MIIBFDCBuQIBADBZMQswCQYDVQQGEwJDTjEQMA4GA1UECBMHQmVpamluZzEQMA4G
+A1UEBxMHSGFpZGlhbjEMMAoGA1UEChMDUEtVMQswCQYDVQQLEwJDUzELMAkGA1UE
+AxMCQ0EwWTATBgcqhkjOPQIBBggqgRzPVQGCLQNCAATBnJrV+eJ4oeXn5W3X/9+K
+Q02KHxzOoAnFfrBoY9TxUsVL3oc/N4i8m6sbW5tdW44SW+IIMcwsAmjf0rW9FgmN
+MAwGCCqBHM9VAYN1BQADSAAwRQIhAL/8I241Vy8gQVKJrGRJyULFwqs8YOyU7XuI
+UHOSDX65AiAOsxOtfMpaebi9OHZ62Ml9MhzCBUVkulEwOyLxevX0+Q==
+-----END CERTIFICATE REQUEST-----
+x509_req_verify() success
+test_x509_request_info() ok
+test_x509_request() ok
+test_x509_req() ok
+/home/sm-encrypt/GmSSL-develop/tests/x509_reqtest.c all tests passed!
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"x509_req" end time: Sep 04 21:00 CST
+"x509_req" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/39 Testing: x509_crl
+36/39 Test: x509_crl
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/x509_crltest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"x509_crl" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+    : 0A0100
+    : 0A01000A0101
+    : 0A01000A01010A0102
+    : 0A01000A01010A01020A0103
+    : 0A01000A01010A01020A01030A0104
+    : 0A01000A01010A01020A01030A01040A0105
+    : 0A01000A01010A01020A01030A01040A01050A0106
+    : 0A01000A01010A01020A01030A01040A01050A01060A0107
+    : 0A01000A01010A01020A01030A01040A01050A01060A01070A0108
+    : 0A01000A01010A01020A01030A01040A01050A01060A01070A01080A0109
+    : 0A01000A01010A01020A01030A01040A01050A01060A01070A01080A01090A010A
+    unspecified (0)
+    keyCompromise (1)
+    cACompromise (2)
+    affiliationChanged (3)
+    superseded (4)
+    cessationOfOperation (5)
+    certificateHold (6)
+    notAssigned (7)
+    removeFromCRL (8)
+    privilegeWithdrawn (9)
+    aACompromise (10)
+    : 0603551D15
+    : 0603551D150603551D18
+    : 0603551D150603551D180603551D1D
+    CRLReasons
+    InvalidityDate
+    CertificateIssuer
+CRLEntryExtensions
+    Extension
+        extnID: CRLReasons
+        critical: true
+        reasonCode: keyCompromise
+    Extension
+        extnID: InvalidityDate
+        critical: true
+        invalidityDate: Sun Sep  4 21:00:48 2022
+    Extension
+        extnID: CertificateIssuer
+        critical: true
+        certificateIssuer
+RevokedCertificate
+    userCertificate: 0102000000000000000000000000000000000000
+    revocationDate: Sun Sep  4 21:00:48 2022
+test_x509_crl_reason() ok
+test_x509_crl_entry_ext() ok
+test_x509_crl_entry_exts() ok
+/home/sm-encrypt/GmSSL-develop/tests/x509_crltest.c all tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"x509_crl" end time: Sep 04 21:00 CST
+"x509_crl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/39 Testing: cms
+37/39 Test: cms
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/cmstest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"cms" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+    : 060A2A811CCF550601040201
+    : 060A2A811CCF550601040201060A2A811CCF550601040202
+    : 060A2A811CCF550601040201060A2A811CCF550601040202060A2A811CCF550601040203
+    : 060A2A811CCF550601040201060A2A811CCF550601040202060A2A811CCF550601040203060A2A811CCF550601040204
+    : 060A2A811CCF550601040201060A2A811CCF550601040202060A2A811CCF550601040203060A2A811CCF550601040204060A2A811CCF550601040205
+    : 060A2A811CCF550601040201060A2A811CCF550601040202060A2A811CCF550601040203060A2A811CCF550601040204060A2A811CCF550601040205060A2A811CCF550601040206
+    data
+    signedData
+    envelopedData
+    signedAndEnvelopedData
+    encryptedData
+    keyAgreementInfo
+ContentInfo
+    contentType: data
+    content: 0102000000000000000000000000000000000000
+EncryptedContentInfo
+    contentType: data
+    contentEncryptionAlgorithm
+        algorithm: sm4-cbc
+        iv: : 00000000000000000000000000000000
+    encryptedContent: 0102000000000000000000000000000000000000000000000000000000000000
+EncryptedContentInfo
+    contentType: data
+    contentEncryptionAlgorithm
+        algorithm: sm4-cbc
+        iv: : 01000000000000000000000000000000
+    encryptedContent: 8F72F97405F759DFD95C9D694EDE29A6F800DA0FB3615069E31C90C57DB17A2A
+IssuerAndSerialNumber
+    issuer
+        countryName: CN
+        stateOrProvinceName: Beijing
+        localityName: Haidian
+        organizationName: PKU
+        organizationalUnitName: CS
+        commonName: CA
+    serialNumber: 0100000000000000000000000000000000000000
+SignerInfo
+    version: 1
+    issuerAndSerialNumber
+        issuer
+            countryName: CN
+            stateOrProvinceName: Beijing
+            localityName: Haidian
+            organizationName: PKU
+            organizationalUnitName: CS
+            commonName: CA
+        serialNumber: 20B5B4FBFF7F000090B6B4FBFF7F000070B5B4FB
+    digestAlgorithm: sm3
+    digestEncryptionAlgorithm: sm2sign-with-sm3
+    encryptedDigest: 3FB7B4FBFF7F000014000000000000001400000000000000000000000000000060B6B4FBFF7F0000C10B306F707F000088B6B4FBFF7F000080B6B4FBFF7F0000B8B6B4FBFF7F0000B0B6B4FBFF7F000090B6B4FBFF7F0000A8B6B4FBFF7F0000590000000100000053B7B4FBFF7F000000000000000000000000000000000000F0B8B4FBFF7F00003F187218FD550000E2B6B4FBFF7F000053B7B4FBFF7F000053B7B4FBFF7F000000000000000000005900000000000000E2B6B4FBFF7F00007100000000000000E4B6B4FBFF7F00003FB7B4FBFF7F000014000000000000000100000000000000000000000000000000000000FF7F000080B7B4FBFF7F0000
+SignerInfo
+    version: 1
+    issuerAndSerialNumber
+        issuer
+            countryName: CN
+            stateOrProvinceName: Beijing
+            localityName: Haidian
+            organizationName: PKU
+            organizationalUnitName: CS
+            commonName: Alice
+        serialNumber: 1575A8B0690429736807689D5D168060DCE845AF
+    digestAlgorithm: sm3
+    digestEncryptionAlgorithm: sm2sign-with-sm3
+    encryptedDigest: 3045022100FC1EE7F28AA9A4E55C7BEAFA78F472A1D6F45B26DD4EA910601844A1B0254CEB02200E6CC8D07718D73D7F6CBBC53043C4DB2FCDB5E4709E34B9B77026C64EC561E5
+SET OF SignerInfo
+    SignerInfo
+        version: 1
+        issuerAndSerialNumber
+            issuer
+                countryName: CN
+                stateOrProvinceName: Beijing
+                localityName: Haidian
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: CA
+            serialNumber: 14000000
+        digestAlgorithm: sm3
+        digestEncryptionAlgorithm: sm2sign-with-sm3
+        encryptedDigest: 304502203950993B839B55E37B4497E98A41CA9459556476F98950A20979806E8AD26C1A022100F0739E8669B7617D2DF748419F514797AA8390F5F4D9CE1235307C457F58A2A0
+    SignerInfo
+        version: 1
+        issuerAndSerialNumber
+            issuer
+                countryName: CN
+                stateOrProvinceName: Beijing
+                localityName: Haidian
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: CA
+            serialNumber: 14000000
+        digestAlgorithm: sm3
+        digestEncryptionAlgorithm: sm2sign-with-sm3
+        encryptedDigest: 3045022100C9B0F6C5C5F5C20B7CA737A3F1A34FCE9F79F482D8A927774D250B11AA20F94202201F01EBA9CC1422E9F62DEF1466EDB92885B9118306FD3472E682692A499BDFB0
+    SignerInfo
+        version: 1
+        issuerAndSerialNumber
+            issuer
+                countryName: CN
+                stateOrProvinceName: Beijing
+                localityName: Haidian
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: CA
+            serialNumber: 14000000
+        digestAlgorithm: sm3
+        digestEncryptionAlgorithm: sm2sign-with-sm3
+        encryptedDigest: 30450221008360CBA3696846B891FBFCDD45B0089564840D660E48DFEE990BBAE02ADCFA7602202F3076A6FAA8E7D55DDDB32DC885946AFBEE2208A7F84CE1759F20D445729B41
+digestAlgorithms
+    sm3
+    md5
+    sha1
+    sha256
+    sha512
+SignedData
+    version: 1
+    digestAlgorithms
+        sm3
+    contentInfo
+        contentType: data
+        content: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    certificates
+        Certficate
+            tbsCertificate
+                version: v3 (2)
+                serialNumber: AAC86138C7322F588C98B04D65D2982B441E52E3
+                siganture: sm2sign-with-sm3
+                issuer
+                    countryName: CN
+                    stateOrProvinceName: Beijing
+                    localityName: Haidian
+                    organizationName: PKU
+                    organizationalUnitName: CS
+                    commonName: CA
+                validity
+                    notBefore: Sun Sep  4 21:00:48 2022
+                    notAfter: Mon Sep  4 13:00:48 2023
+                subject
+                    countryName: CN
+                    stateOrProvinceName: Beijing
+                    localityName: Haidian
+                    organizationName: PKU
+                    organizationalUnitName: CS
+                    commonName: CA
+                subjectPulbicKeyInfo
+                    algorithm
+                        algorithm: ecPublicKey
+                        namedCurve: sm2p256v1
+                    subjectPublicKey
+                        ECPoint: 0416DEC8BC598642E3197BC2CCDC39802EFF9A5322A6ADA1B967C1189FF27D324A2D65BF3B7C7057546280281C45B10945B92E7F41DD1E007830B642686ADDEE8D
+            signatureAlgorithm: sm2sign-with-sm3
+            signatureValue: 3045022100865AE2476AA2D000360D19096984B39818C3898CE5DFFBDCACA2AD6D4527C43B022043CE99A94F9AB844EC48F644605E0D1B8BB2ECBF14BB6D662573E0B9699A9CB7
+    signerInfos
+        SignerInfo
+            version: 1
+            issuerAndSerialNumber
+                issuer
+                    countryName: CN
+                    stateOrProvinceName: Beijing
+                    localityName: Haidian
+                    organizationName: PKU
+                    organizationalUnitName: CS
+                    commonName: CA
+                serialNumber: AAC86138C7322F588C98B04D65D2982B441E52E3
+            digestAlgorithm: sm3
+            digestEncryptionAlgorithm: sm2sign-with-sm3
+            encryptedDigest: 3045022052D3A1B0D53783F8662A1A2729DF8BED78B5BA769C6ABE29BD4C19D5F368EB6A022100EA87F44D47BF88B0E19794E1F2FC3D031C760DC49B3221969ADF4394ACAD6841
+RecipientInfo
+    version: 1
+    issuerAndSerialNumber
+        issuer
+            countryName: US
+            stateOrProvinceName: CA
+            organizationName: BB
+            organizationalUnitName: AA
+            commonName: CC
+        serialNumber: B8D0D5987B4513FA7037BF3D1300EA6B2CF1CF26
+    keyEncryptionAlgorithm
+        algorithm: sm2encrypt
+    encryptedKey: 30780220675C4C6180B6E32BF17CADC602D90D4E72494291DB8F5240B416D8BAA08E185A02206712619D31BD192AE6F9441A303D7781E51C7BF8FB51DC018C3EAFE741B2B2370420CCF291CE432AA95ACFC415B98B5B7B12D04E21F8A1B196AE00B3EE262C81CDCA04107A6371095E95AA56D3326DA15F957876
+EnvelopedData
+    version: 1
+    recipientInfos
+        RecipientInfo
+            version: 1
+            issuerAndSerialNumber
+                issuer
+                    countryName: CN
+                    stateOrProvinceName: Beijing
+                    localityName: Haidian
+                    organizationName: PKU
+                    organizationalUnitName: CS
+                    commonName: Alice
+                serialNumber: 1931365B7895C4BBD42CE5A0B68FA59A8EB59C75
+            keyEncryptionAlgorithm
+                algorithm: sm2encrypt
+            encryptedKey: 3078022054AC02F3CB483BC857218B4C584D9576021F5805C32BFE210D67AA1315589012022008B0E90045CD68D21CF8945C7552175F6732237E233F8C5E69F17823A95FC269042045B67518BFB3557499E1267027EE592FB9E7CBC3D6BA2C159657FC2362AAA42C0410AFB2A89F819D66E3630E99F3D17F6913
+        RecipientInfo
+            version: 1
+            issuerAndSerialNumber
+                issuer
+                    countryName: CN
+                    stateOrProvinceName: Beijing
+                    localityName: Haidian
+                    organizationName: PKU
+                    organizationalUnitName: CS
+                    commonName: Bob
+                serialNumber: D08AAD06ADB3A408BFDC9BE88E2301DBA89BE45E
+            keyEncryptionAlgorithm
+                algorithm: sm2encrypt
+            encryptedKey: 30780220768F34F81DFFFEF22EB11B1028045964D4CC8C08F71D78F991736DDA5018247202200FBF07840D9DA94B9413235AF62BF666E81180BB365B273F62AD2CB427C4B1060420F4D16D5EB045CF488C45F8250A9F04CBA4AD326B30D5FA9E02E64ABCE96007270410DAF5AD0CD3DEE9F09824FAAF23FB21C7
+    encryptedContentInfo
+        contentType: data
+        contentEncryptionAlgorithm
+            algorithm: sm4-cbc
+            iv: : 7CDC6D26E25D78C6D256AE995345E4ED
+        encryptedContent: D0A49C03E1170C657DFFE2B8E07FAE8AA18608E0E2F4FB03037342FEEABB2F3C5DFF8B4946F9D216B724BEF05AD20B48B90B7438E40B73EDEA69F43775541E8CE273FD05608A88AA00EABCF0A51A5C70242EB4C73CBE8F69946D7F207E3C95C3
+KeyAgreementInfo
+    version: 1
+    tempPublicKeyR
+        x: C72E4805A6B87BEE32FBE001F332CDCE38A1AAA6870E2F2AD065A8D7CF7E66A7
+        y: 5B2C978AAF18BC47B47E0C2C0F71420016C3941FD109B473FB4C3A5EA2224FAC
+    certificate
+        tbsCertificate
+            version: v3 (2)
+            serialNumber: 44E6FF3A1A28B154AB30C056514782FCB5A9D096
+            siganture: sm2sign-with-sm3
+            issuer
+                countryName: CN
+                stateOrProvinceName: Beijing
+                localityName: Haidian
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: Alice
+            validity
+                notBefore: Sun Sep  4 21:00:48 2022
+                notAfter: Mon Sep  4 13:00:48 2023
+            subject
+                countryName: CN
+                stateOrProvinceName: Beijing
+                localityName: Haidian
+                organizationName: PKU
+                organizationalUnitName: CS
+                commonName: Alice
+            subjectPulbicKeyInfo
+                algorithm
+                    algorithm: ecPublicKey
+                    namedCurve: sm2p256v1
+                subjectPublicKey
+                    ECPoint: 04C72E4805A6B87BEE32FBE001F332CDCE38A1AAA6870E2F2AD065A8D7CF7E66A75B2C978AAF18BC47B47E0C2C0F71420016C3941FD109B473FB4C3A5EA2224FAC
+        signatureAlgorithm: sm2sign-with-sm3
+        signatureValue: 304402207D9F6E8C72FC452222C5F5A48D8066F9922E42C086284F7D6C593E7FE56EADBC02207CF84E789F38224E98959B7A3D434A99962AA4E84093AACDD6B13264247A1BE3
+    userID: 1234567812345678
+test_cms_content_type() ok
+test_cms_content_info() ok
+test_cms_enced_content_info() ok
+test_cms_enced_content_info_encrypt() ok
+test_cms_issuer_and_serial_number() ok
+test_cms_signer_info() ok
+test_cms_signer_info_sign() ok
+test_cms_signer_infos() ok
+test_cms_digest_algors() ok
+test_cms_signed_data() ok
+test_cms_recipient_info() ok
+test_cms_enveloped_data() ok
+test_cms_key_agreement_info() ok
+/home/sm-encrypt/GmSSL-develop/tests/cmstest.c all tests passed
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"cms" end time: Sep 04 21:00 CST
+"cms" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/39 Testing: tls
+38/39 Test: tls
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/tlstest"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"tls" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_tls_encode() ok
+test_tls_cbc() ok
+Random
+    gmt_unix_time : Sun Sep  4 21:00:48 2022
+    random: 928694C53D864CB66FE6F670D4CE968175AED5EB2217E8AF47C16311
+test_tls_random() ok
+    ClientHello
+        Version: TLCP (1.1)
+        Random
+            gmt_unix_time : Thu Jan  1 08:00:00 1970
+            random: 00000000000000000000000000000000000000000000000000000000
+        SessionID: (null)
+        CipherSuites
+            TLS_ECC_SM4_CBC_SM3 (0xe013)
+            TLS_ECC_SM4_GCM_SM3 (0xe053)
+            TLS_ECDHE_SM4_CBC_SM3 (0xe011)
+            TLS_ECDHE_SM4_GCM_SM3 (0xe051)
+            TLS_IBSDH_SM4_CBC_SM3 (0xe015)
+            TLS_IBSDH_SM4_GCM_SM3 (0xe055)
+            TLS_IBC_SM4_CBC_SM3 (0xe017)
+            TLS_IBC_SM4_GCM_SM3 (0xe057)
+            TLS_RSA_SM4_CBC_SM3 (0xe019)
+            TLS_RSA_SM4_GCM_SM3 (0xe059)
+            TLS_RSA_SM4_CBC_SHA256 (0xe01c)
+            TLS_RSA_SM4_GCM_SHA256 (0xe05a)
+        CompressionMethods
+            no_compression (0)
+test_tls_client_hello() ok
+ServerHello
+    Version: TLCP (1.1)
+    Random
+        gmt_unix_time : Thu Jan  1 08:00:00 1970
+        random: 00000000000000000000000000000000000000000000000000000000
+    SessionID: (null)
+    CipherSuite: TLS_ECDHE_SM4_CBC_SM3 (0xe011)
+    CompressionMethod: no_compression (0)
+test_tls_server_hello() ok
+test_tls_certificate() ok
+server_key_exchange siganture: AABB00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+test_tls_server_key_exchange() ok
+CertificateVerify
+    Signature: AABB00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+test_tls_certificate_verify() ok
+Finished
+    verify_data: 000000000000000000000000
+test_tls_finished() ok
+Alert:
+    Level: fatal (2)
+    Reason: close_notify (0)
+test_tls_alert() ok
+ChangeCipherSpec
+    type : change_cipher_spec (1)
+test_tls_change_cipher_spec() ok
+ApplicationData: A08E5240FD7F0000E2125052CB7F000004000000000000000100000000000000C58E5240FD7F0000A0664552CB7F0000B88E5240FD7F0000B06A1A6FFA550000D0925240FD7F00004B681A6FFA5500000200000000000000
+test_tls_application_data() ok
+/home/sm-encrypt/GmSSL-develop/tests/tlstest.c all tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tls" end time: Sep 04 21:00 CST
+"tls" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/39 Testing: tls13
+39/39 Test: tls13
+Command: "/home/sm-encrypt/GmSSL-develop/build/bin/tls13test"
+Directory: /home/sm-encrypt/GmSSL-develop/build
+"tls13" start time: Sep 04 21:00 CST
+Output:
+----------------------------------------------------------
+test_tls13_gcm() ok
+/home/sm-encrypt/GmSSL-develop/tests/tls13test.c all tests passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"tls13" end time: Sep 04 21:00 CST
+"tls13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 04 21:00 CST
