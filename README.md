@@ -10,7 +10,7 @@ manual compile
 ```
 $>cd gm_crypto
 $>make
-$>cp libzgmssl.lib
+$>cp libzgmssl.lib ..
 $>cd ..
 $>make
 ````
